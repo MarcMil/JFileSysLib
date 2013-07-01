@@ -1,4 +1,4 @@
-JFileSysLib v. 0.9 Beta
+JFileSysLib v. 1.0
 
 
 See QuickStart.pdf for information on how to start the demo file system.

@@ -16,6 +16,12 @@ public class JFileSysLibInfo {
 	 */
 	public static final String AUTHOR = Messages.getString("JFileSysLibInfo.AuthorString"); //$NON-NLS-1$
 	
+
+	/**
+	 * The URL
+	 */
+	public static final String URL = Messages.getString("JFileSysLibInfo.URL"); //$NON-NLS-1$
+	
 	
 	/**
 	 * A dummy main method which only writes the version to stdout.
@@ -24,16 +30,9 @@ public class JFileSysLibInfo {
 	public static void main(String[] args) {
 		System.out.println(Messages.getString("JFileSysLibInfo.LongVersionString").replace("$VERSION$", VERSION)); //$NON-NLS-1$ //$NON-NLS-2$
 		System.out.println(AUTHOR);
+		System.out.println(URL);
 	}
 	
-
-    
-
-	static void p() {
-		System.out.println(Messages.getString("JFileSysLibInfo.LongVersionString").replace("$VERSION$", VERSION)); //$NON-NLS-1$ //$NON-NLS-2$
-		System.out.println(AUTHOR);
-		System.out.println(Messages.getString("JFileSysLibInfo.URL")); //$NON-NLS-1$
-	}
 	
 
 }
