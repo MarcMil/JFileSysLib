@@ -1,10 +1,5 @@
-fuse
-fuse.compat
-fuse.logging
-fuse.util
 jfilesyslib
 jfilesyslib.data
 jfilesyslib.exceptions
 jfilesyslib.filesystems
 jfilesyslib.utils
-net.decasdev.dokan
