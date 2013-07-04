@@ -1,5 +1,4 @@
-JFileSysLib v. 1.0
-
+https://github.com/MarcMil/JFileSysLib/releases/v1.0 is the newest release
 
 See QuickStart.pdf for information on how to start the demo file system.
 
