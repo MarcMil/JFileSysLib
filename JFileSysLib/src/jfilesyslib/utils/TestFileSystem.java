@@ -112,6 +112,9 @@ public  class TestFileSystem {
 	 */
 	public static void testFileSystemUnmounted(FileSystem fileSystem, boolean isReadOnly) throws TestFailedException
 	{
+		int bs = fileSystem.getBlockSize();
+		if (bs <= 0)
+			throw new TestFailedException("Blocksize <= 0 is not supported; was: " + bs);
 		byte[] write;
 		try {
 			write = "I am testing your file system. :)".getBytes("UTF-8");
